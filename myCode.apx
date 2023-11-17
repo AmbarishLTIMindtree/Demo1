@@ -1,1 +1,2 @@
-System.debug('Welcome to All');
+Integer a=10;
+System.debug('Ambarish');
