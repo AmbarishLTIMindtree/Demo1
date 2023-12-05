@@ -6,3 +6,28 @@ https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-we
 https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics?trail_id=build-lightning-web-components
 https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-and-salesforce-data?trail_id=build-lightning-web-components
 https://trailhead.salesforce.com/content/learn/projects/communicate-between-lightning-web-components?trail_id=build-lightning-web-components
+
+
+<template>
+ 
+<lightning-layout multiple-rows>
+ 
+<lightning-layout-item padding="around-small" size="4">
+ 
+<c-hellolwc ongetaccountdata=[handleaccountdata) onresetdata=(handleresetdata]>
+ 
+</c-hellolwc>
+ 
+</lightning-layout-item>
+ 
+<lightning-layout-item padding="around-small" size="6">
+ 
+<c-accountsearchgrid searchresults={searchDetails>>
+ 
+</c-accountsearchgrid>
+ 
+</lightning-layout-item>
+ 
+</lightning-layout>
+ 
+</template>
