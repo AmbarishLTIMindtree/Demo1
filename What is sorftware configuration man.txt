@@ -1,0 +1,6 @@
+What is sorftware configuration management?
+
+In software negineering, software configuration management is the task of tracking and controlling changes in the software, part of the larger cross-disciplinary field of configuratinon management. SCM practices include revision control and the establishment of baselines.
+
+Git
+Git is the industry-leading version control system to tack code changes. Adding configuration management data alongside code in a Git repository provides a holistic version control view of an entrire project. Git is a foundational tool in higher -level configuration management.

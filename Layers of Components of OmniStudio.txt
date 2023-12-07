@@ -1,0 +1,17 @@
+Layers of Components of OmniStudio
+
+Digital Experience-UI
+Service Management-get the data
+Developer Experience-
+
+Digital Experience
+The digital experience layer includes two primary user interface(UI) components.
+FlexCards-Display contextual information and provide access to relevant tasks for the displayed data.
+OmniScripts-A guided path to complete a business process.-multi screen path
+
+
+the service management layer
+The service management layer includes data services that read, write, transform, calculate,and track data within and outside of salesforce.
+
+Dataraptors- configurable services for retrieving, transforming and updating data
+Integration Procedures- Declarative, server-side processes that execute multiple actions in a single server call

@@ -1,0 +1,45 @@
+service,cases,new case,status new,priority medium,case origin phone,
+subject iPhone 16 performance issue
+go to relatied, inopen activited, new task, comments->please work on urgent
+
+login into yash kumar profile incognetive mode,
+
+create a knowledge article,service setup, knowledge setup, start,select yash kumar,next , finish(in Ambarish Bhagawati means not in incgnetive mode)
+
+Then go to yash kumar profile in incognetive mode and create a knowledge and publish it
+
+
+some extra topic:For practical
+1. Case Assignment ->steps: case assignment rule,new,give name,make active,save,open rule,in rule entries,new,sort number 1,go to ur service cloud , new case,enable assign useg aactive assignment rule
+
+2. Record Types-> page layout merchadnise,new , merchandise without country,remove, country section,
+
+record types,new,without country,enable system admin
+new record type,with coutnry, make sure active,new system admin,
+
+in page layout of merchandise remove country info, 
+
+3. Auto response Rule ->steps: auto respoce rule,new,active,click on created, fill name and email address,create a HTML page using web to case HTML genereator for apple website, and run it in chrome and fill the details , and check the case created cases(service app) or not.
+
+4. Email-to-Case -> steps : email to case,edit,enable email to case checked , enable on-demand services, create a routing address,use different email id
+
+5. Web-to-Case
+
+1. Case Assignment:
+	Assignment rules dictate to whom a case is assigned based on criteria specifies
+
+
+Use case:
+
+create a email text template
+	body:thanks to inquire with us. we will get back to on this.
+create a auto response rule:
+	check origin is web
+		apple support team, give email
+create a web to case:
+submit a enquiry to know new feature of iPhone
+
+
+
+
+

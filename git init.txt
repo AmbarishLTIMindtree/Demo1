@@ -1,0 +1,11 @@
+git init
+
+git config --global user.name "username"
+
+git config --global user.email "userEmail"
+
+git add . /  git add --all 
+
+git commit -m "message1"
+
+git push -u origin main

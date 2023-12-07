@@ -1,0 +1,43 @@
+Explaination of Restaurant Management System.
+
+Our project name is Restaurant Management System. our project aim is to automate the various processes to enhance efficiency and reduce manual efforts to save the time.
+
+In this we are using 5 objects
+1. Customer 
+   - Represents individuals visiting the restaurant.
+   - This entity stores information about customers, such as their details and preferences.
+
+2. Reservation
+   - Allows customers to make reservations.
+   - Stores reservation details, including date, time and the number of guests.
+
+3. Ratings
+   - Captures feedback from customers about the restaurant's services.
+   - Provides a mechanism for customers to rate on their experience.
+
+4. Resources
+   - Tracks details about the resources within the restaurant.
+   - This could include information about tables, staff, inventory, or any other crucial resources.
+
+5. Cases
+   - Manages and tracks issues related to either customers or the restaurant.
+   - Acts as a system to log and address problems, ensuring a systematic approach to problem resolution.
+
+
+Possible values for Sources are: -
+o Marketing: Social Media, Newspaper.
+o Non-Marketing: Direct, Referral.
+
+Possible values for Status are: Active and Inactive
+
+
+Record Types : It is a way to categorize and distinguish different sets of data within the same object. It allows us to difine different page layouts, picklist values and business processes for different record types within a single object.
+
+Validation : The process of checking the entered data to meet the criteria.
+
+Automation : It involves technology to perform some tasks to reduce the mannual efforts.
+
+
+
+
+

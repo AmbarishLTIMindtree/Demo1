@@ -1,0 +1,17 @@
+Use cases:
+
+Create aura component where ou have to insert student record 
+name,father,email,fees,
+
+insert merchandise object,
+name,description,price and stock
+
+lwc component, student object, same fields
+
+lwc component, merchsndie objet, same fields
+
+aura program where you have to demonstrate the life cycle of aura
+
+same for lwc
+
+create one hello world for documention using aura

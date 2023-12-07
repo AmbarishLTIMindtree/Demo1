@@ -1,0 +1,8 @@
+Record Type -> These allows administrators to create different page layouts with custom prickist and values for same business process and various business process. 
+
+
+
+these allows administrators to create different page layouts with custom picklist fields and values for same business process and various busieness process.
+
+
+select id,name,(select id, name from Contacts) from Account__c

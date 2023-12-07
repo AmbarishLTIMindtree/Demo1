@@ -1,0 +1,22 @@
+what is PMD?
+
+PMD(Programming Mistake Detector) is a static source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It's mainly concerned with Java and Apex, but supports 12 other languages.
+
+Note: Allows you to run Apex Static Analysis directly in vscode on apex, visualforce and other XML metadata files.
+
+What is Static Code Analysis?
+Static code analysis and static analysis are often used interchangeably, along with source code analysis.
+
+static code analysis addresses weaknesses in source code that might lead to vulnerabilities. Of course,this may also be acheived through manual source code reviews. But using automated tools is much more effective
+
+Note: current supported Action:
+-> Run Analysis on file open
+-> Run Analysis on file save
+-> Run Analysis on fielchange(new)
+-> Run Analysis on entire workspace
+-> Run Analysis on single file
+
+After that run Apex PMD on your workspace using VScode => ctrl+shift+p=> 'Apex static analysis: on workspace'
+and if you want code review comments on csv file format then you have to follow below command:
+
+pmd -d "C:\Users\Amit Malhotra\firstprj\force-app\main\default\classes" -f csv -R rulesets/apex/quickstart.xml -reportfile "e:\PMD Run\report.csv"

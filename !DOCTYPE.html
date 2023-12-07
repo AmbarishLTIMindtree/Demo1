@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<style>
+        table, td {
+          border: 1px solid black;
+        }
+</style>
+</head>
+ 
+<body>
+ 
+    <p>Click the button to add a new row at the first position of the table and then add cells and content.</p>
+ 
+    <table id="myTable">
+<tr>
+<td>A1</td>
+<td>A2</td>
+<td>A3</td>
+</tr>
+<tr>
+<td>B1</td>
+<td>B2</td>
+<td>B3</td>
+</tr>
+</table>
+<br>
+ 
+    <button type="button" onclick="myFunction()">Try it</button>
+ 
+    <script>
+        function myFunction() {
+        var oTable = document.getElementById('myTable')[0];
+        console.log(oTable);
+        //gets rows of table
+        var rowLength = oTable.rows.length;
+        //loops through rows    
+        for (i = 0; i < rowLength; i++){
+          //gets cells of current row  
+           var oCells = oTable.rows.item(i).cells;
+           //gets amount of cells of current row
+           var cellLength = oCells.length;
+           //loops through each cell in current row
+           for(var j = 0; j < cellLength; j++){
+              // get your cell info here
+              var cellVal = oCells.item(j).innerHTML;
+              console.log(cellVal);
+           }
+        }
+        console.log(oTable);
+        }
+</script>
+ 
+</body>
+ 

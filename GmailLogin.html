@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gmail SignIn Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div style="width:300px;border:1px solid black; place-items: center;margin-left: auto;margin-right: auto;">
+      
+    
+    <div class="form-card">
+    <div class="icons" >
+      <p style="color:Blue; display:inline">G</p>
+      <p style="color:Red;display:inline" >o</p>
+      <p style="color:Yellow;display:inline">o</p>
+      <p style="color:Blue;display:inline" >g</p>
+      <p style="color:Green;display:inline" >l</p>
+      <p style="color:Red;display:inline" >e</p>
+    </div>
+    <h3>Sign In</h3>
+    <p>to continue to Gmail</p>
+    
+      <form action="">
+        <input type="email" name="username" id="username" placeholder="Email or phone" />
+        <br />
+        <a href="" style="color:blue">Forgot email?</a>
+        <p>Not your computer? Use a private browsing window to sign in. <a href="www.google.com/priva" style="color:blue">Learn more</a></p>
+        
+      </form>
+      </div>
+      <div class="footer-buttons">
+          <a href="www.google.com/createaccount" style="margin-left: 50px;position:relative;color:blue">Create account</a>
+          <button style="margin-left: 180px;
+" type="submit" onclick="showEmail()">Next</button>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      function showEmail() {
+	    var emailid=document.getElementById('username');
+		alert(emailid.value);
+		console.log(emailid.value);
+      }
+    </script>
+  </body>
+</html>

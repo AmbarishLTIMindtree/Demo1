@@ -1,0 +1,47 @@
+1.please share merchandise records with another user(which you newly created into your org), if the stock is greater than 2000. but please make sure it should be shared with only a single user(which you have newly created). not with all internal users.							 Hint. Public Group
+
+Steps: 1. Public Group, add member,save group
+	2. Sharing settings,merchandise,merchadndise>2000, share with a newly created group
+
+2.Share all the records of invoice object where you are owner with another user(which you have newly created).
+Note: when your OWD is private.
+
+Steps:	1. Create two public group 1. add yourself(Ambarish) 2. add person wanto to share(yashkumar)
+	2. sharing settings,Invoice sharing,new,based on owner ,choose publci group where you re the owner,and choose wher yash is the owner
+
+3. You have not given any permission in the profile P1(new system admin)for an object O1(Merchandise), can another newly created user will be able to create records for object O1(Merchandise). How could this be this possible?If we want to do.
+
+Steps:	1. Users, desalbe merchandise
+	2. Permission sets, create a new set,object settings,merchandises ,enable required fields , save, manage assignment, add assignment,click the user whom you want to share,done,
+
+4. email to case
+5. web to lead
+6. web to case
+7. screen flow for insert merchandise records
+8. traping the delete record if stock is greater than 5000
+9. Sales life cycle
+	steps : 1. campaign,new , name: samsung , make active,trade show, planned,10000,1000,100%,save
+		2. lead,new,fill detailes, save
+		3. campaign,samsung,scroll down,add lead,select abhishek ,next,status as sent, done
+		4. campaign, change the status into responded in edit mode,convert lead in leads object, go to the account,related,opportunity
+		5. opportunity, details,open stage of the opportunity, make it as closed won.
+
+10. Service Cloud applications
+	steps : 1. open service application,cases,new,save,
+		2. REalated list, new task,subject call , write a comment, please do it on very urgent basis,save.
+		3. incognetive mode,login with yash kumar,he will receive one notification,click on it,change status to in progress,open the case by clicking on case number,
+		4. service setup,set knowledge setup (in main account),make him as a knowlede user using servie setup in gear box,
+		5. incognetive,open servie,new,samsung mobile solution,question,provide steps to solve the issue,save,close the task , and attach the task
+		support setting,check the show closed status, save
+
+11. How to create dashboard of summary, tabular,joined report
+12. approval process (first create a queue)
+13. Text Based email template
+14. Case Assignment rule
+	steps: search for case assignment rules,new,add condition in rule entries
+15. Auto-response rule
+	steps: search for the auto-response rule,create new,
+
+
+row wise summary- summary report
+row and column wise

@@ -1,0 +1,55 @@
+custom settings,new, after saving create sutom field,checkbox,isActive,manage,new,save,
+
+schema settings,enable list cusom settings type
+
+public class CustomSettingDemo {
+    
+    public void customSettingMethod(){
+        MyCustomSetting__c mc=MyCustomSetting__c.getInstance('MyDataSet');
+        System.debug('Value of My Custom Setting : '+mc);
+        if(mc.isActive__c == true){
+            System.debug('Please call my trigger');
+        }else{
+            System.debug('Sorry, I cannot');
+        }
+    }
+
+}
+
+
+custom metadata, mycustommetadata-name,save,custom fields-new,checkbox,name-isActive,save,
+manage,new,UpdateTriggerStatus,save.
+
+public class CustomMetaData {
+    
+    public void customMetaDataMethod(){
+        MyCustomMetadata__mdt cmd=MyCustomMetadata__mdt.getInstance('UpdateTriggerStatus');
+        System.debug('Value of Custom Meta Data : '+cmd);
+        if(cmd.isActive__c == true){
+            System.debug('True');
+        }else{
+            System.debug('False');
+        }
+    } 
+
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class QueuableClassA {
+    
+    @future
+    public static void a1(){
+        System.debug('I am from Class A');
+        System.enqueueJob(new QueuableClassB());
+    }
+
+}
+
+public class QueuableClassB implements Queueable {
+    
+    public void execute(QueueableContext qc){
+        System.debug('I am from B Class');
+    }
+
+}

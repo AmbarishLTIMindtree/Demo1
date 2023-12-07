@@ -1,0 +1,22 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.form-card{
+  widows: 300px;
+  text-align: center;
+padding:10px;
+}
+button{
+    margin-left: 180px;
+    background-color: #1676f3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 95px;
+    border: 1px solid #1676f3;
+    padding: 10px;
+    border-radius: 8px;
+}
